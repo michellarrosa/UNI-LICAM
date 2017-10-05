@@ -1,0 +1,93 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.main{
+	float:right;
+	width: 80%;
+	height: 100%;
+	font-size: 20px;
+
+}
+input[type="button"]{
+	background: #009900;
+	font-size: 15px;
+	border: 0;
+	color: black;
+	cursor: pointer;
+	opacity: 0.8;
+	border-radius: 4px;
+	margin-bottom: 0;
+}
+form{
+	border-radius: 14px;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 100%;
+	max-width: 900px;
+	background: #ccffb3;
+	padding: 30px;
+	border: 1px solid #1a6600;
+
+}
+div#main{
+	margin-left: -40px;
+	padding: 100px 10px;
+
+}
+p.ajust{ padding: 0.6em }
+
+h1{
+	font-weight: 40px;
+	font-family:arial,sans-serif;
+	height: 60px;
+	width: 100%;
+	background: #1a6600;
+	line-height: 60px;
+	color:  #fff;
+	text-shadow: 4px 4px 8px #fff;
+}
+h2{
+	padding-left: 1100px;
+	font-size: 15px;
+	font-family:arial,sans-serif;
+	height: 30px;
+	width: 100%;
+	background:  #66ff66;
+	line-height: 30px;
+	color:  #001a00;
+}
+
+div#menu{
+	width: 250px;
+	position: fixed;
+	margin-top: -2px;
+	height: 660px;
+	background: #206020;
+}
+
+div#menu a{
+	text-decoration:none;
+	color:black;
+	padding: 10px;
+	padding-right:100px;
+}
+div#menu ul li{
+	list-style-type: none;
+	display: block;
+	padding:15px;
+
+	font-family: arial;
+	font-size: 20px;
+	border-bottom: 1px solid #194d00;
+}
+
+div#menu ul li:hover{
+	background:  #bbff99;
+	transition:linear all 0.40s;
+	margin-left: 10px;
+}
+
+div#menu ul li:hover{
+	color: black;
+}

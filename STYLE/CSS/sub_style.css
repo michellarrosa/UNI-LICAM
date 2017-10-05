@@ -1,0 +1,186 @@
+body{
+	margin: 0 auto;
+	background: #DEDEDE; 
+	/*background-image: url(RGr.png);
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+	*/
+	font-family: arial;
+
+} 
+a{
+	
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 90px;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.5);
+}
+#principal{
+	border-radius: 14px;
+	margin-left: 20%;
+	margin-top: 2%;
+	margin-left: 30%;
+	width: 60%; 
+	max-width: 500px;
+	background: #F3F3F3;
+	padding: 30px;
+	border: 1px solid rgb(0,0,0,0.2);
+	display: block;
+
+}
+a.documentos, a.acompanhamento,a.legislacao,a.abrir, a.tutoriais{
+	background: #009933;
+	border: 0;
+	color: black;
+	cursor: pointer;
+	opacity: 0.8;
+	border-radius: 20px;
+	margin-bottom: 7px;
+	width: 90%;
+	margin-left: 15px;
+	text-decoration: none;
+		
+}
+#principal_login{
+	border-radius: 14px;
+	margin-left: 20%;
+	margin-top: 2%;
+	margin-left: 30%;
+	width: 60%; 
+	max-width: 500px;
+	background: #F3F3F3;
+	padding: 30px;
+	border: 1px solid rgb(0,0,0,0.2);
+	display: block;
+
+}
+a.cadastrar,a.entrar{
+	background: #009933;
+	border: 0;
+	color: black;
+	cursor: pointer;
+	opacity: 0.8;
+	border-radius: 20px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	width: 90%;
+	text-decoration: none;	
+}
+
+#parte_01,#parte_02{
+	border-radius: 14px;
+	margin-left: 12%;
+	margin-top: 10px;
+	width: 45%; 
+	max-width: 450px;
+	background: #F3F3F3;
+	padding: 20px;
+	margin-inline-end: -140px;
+	border: 1px solid rgb(0,0,0,0.2);
+	display: inline-block;
+
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.5);
+}
+input,a{
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin: 30px 0;
+	font-size: 20px;
+}
+input[type="submit"],a{
+	background: #009933;
+	border: 0;
+	color: black;
+	cursor: pointer;
+	opacity: 0.8;
+	border-radius: 20px;
+	margin-bottom: 75px;
+	width: 20%;
+	margin-left: auto;
+	margin-right: 100px;	
+	
+}
+input[type="submit"]:hover{
+	opacity: 1;
+}
+
+table{
+	width:100%;
+}
+th, td {
+    padding: 10px;
+}
+th{
+	text-align:left;
+}
+img{
+	width:75%;
+	/* height:10%; */
+}
+div table tr td:nth-child(1){
+	width:30%;
+}
+input[type=search]:after {
+	content : url("2z3s1nl.gif");
+}
+div#form_container{
+	width:80%;
+	padding-left:10%;
+	padding-right:10%;
+}
+
+
+table#form_header tr td:nth-child(1){
+	width:18%;
+}
+table#form_header tr td:nth-child(2){
+	width:60%;
+}
+table#form_header tr td:nth-child(3){
+	width:20%;
+}
+table#form_header p:nth-child(1){
+	font-style:normal;
+	font-weight:bold;
+	font-size:25px;
+	text-align:center;
+}
+table#form_header p:nth-child(2){
+	font-style:italic;
+	font-weight:normal;
+	font-size:25px;
+	text-align:center;
+}
+table#form_header p:nth-child(3){
+	font-style:normal;
+	font-weight:normal;
+	font-size:20px;
+	text-align:center;
+}
+table#form_header p:nth-child(4){
+	font-style:normal;
+	font-weight:bold;
+	font-size:25px;
+	text-align:center;
+}
+/* ----- hovers ----- hovers ----- hovers ----- hovers ----- hovers ----- */
+table:hover{
+	background-color:#F9F9F9;
+}
+div table tr:hover{
+	background-color:#eaeafa;
+}
+div table tr:nth-child(1){
+	background-color:transparent;
+}
+/*------------------------------------------------------------------------------------------*/
+
+
